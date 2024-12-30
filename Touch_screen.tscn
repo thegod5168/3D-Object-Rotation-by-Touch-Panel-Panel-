@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dts0xcm32cp1k"]
+
+[ext_resource type="Script" uid="uid://so4t83t2x55i" path="res://Orient 3D objects by touching the panel/touch_screen.gd" id="1_lkv5w"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jeyfc"]
+
+[node name="Touch_screen" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 704.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_jeyfc")
+script = ExtResource("1_lkv5w")
